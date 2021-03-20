@@ -35,6 +35,14 @@
 
             .produto-single img{
                 max-width: 100%;
+                align-items: center;
+                -webkit-transition: --webkit-transform .5s ease;
+                transition: transform .5s ease;
+            }
+
+            .produto-single:hover img{
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
             }
 
             .produto-single p{
@@ -139,8 +147,6 @@
                         <div style="clear:both"></div>
                     </div>
                     
-                    
-
                     `;
                     }
                 })
