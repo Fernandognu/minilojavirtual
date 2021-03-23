@@ -59,8 +59,25 @@ h2{
   padding: 10px 0;
 }
 
-@media screen and (max-width: 700px){
-  .produto-single{
-      width: 100%;
+/* Min Width 1920px */
+@media all and (min-width: 1921px) {
+  /* General */
+  .content-size {
+      width: 70%;
+}
+/* Min Width 1024px */
+@media all and (min-width: 1024px) {
+  
+  /* General */
+  .content-size {
+      width: 85%;
   }
+}
+/* Min Width 786px */
+@media all and (min-width: 786px) {
+  
+}
+/* Min Width 480px */
+@media all and (min-width: 480px) {
+
 }
